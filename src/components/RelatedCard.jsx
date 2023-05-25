@@ -1,6 +1,6 @@
 
 import Badge from 'react-bootstrap/Badge';
-import { useDispatch, useSelector } from 'react-redux';
+import {  useSelector } from 'react-redux';
 
 const RelatedCard = ({item}) => {
     const {genreList} = useSelector(state=>state.movie);
