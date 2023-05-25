@@ -1,0 +1,42 @@
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    }
+
+    .page-item {
+    margin: 0px 5px;
+    
+    }
+
+    .page-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    color: black;
+    background-color: #DC3545;;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+    .page-link:hover {
+    background-color: darkred;
+    }
+
+    .page-item.active .page-link {
+    background-color: darkred;
+    }
+
+    @media (max-width: 768px){
+        .pagination {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            }
+    }
