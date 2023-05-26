@@ -2,7 +2,7 @@ import api from "../api";
 
 
 
-const API_KEY= e0d26fc1c8c2e6397d019bd30ab651b1;
+const API_KEY= 'e0d26fc1c8c2e6397d019bd30ab651b1';
 
 // 홈페이지 별
 function getMovies() {
